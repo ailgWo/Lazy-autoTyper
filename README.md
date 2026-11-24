@@ -12,11 +12,13 @@
 [![License](https://img.shields.io/badge/license-MIT-d7ff57)](LICENSE)
 [![Network](https://img.shields.io/badge/network-none-5c6670)](#隐私与安全)
 
-**[下载 LazyTyper.exe](dist/LazyTyper.exe)** · [快速开始](#30-秒上手) · [后台模式](#后台与托盘模式) · [如何上传到 GitHub](UPLOAD_GUIDE.md) · [English](#english)
+**[下载 LazyTyper.exe](https://github.com/ailgWo/Lazy-autoTyper/releases/tag/v1.0.0)** · [快速开始](#30-秒上手) · [后台模式](#后台与托盘模式) · [English](#english)
 
 ---
 
 ## 这是什么
+
+**本项目完全由AI开发完成**
 
 **LazyTyper（摸鱼打字机）** 是一个完全本地运行的 Windows 小工具。
 
