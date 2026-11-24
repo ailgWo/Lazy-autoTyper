@@ -197,15 +197,6 @@ Lazy-autoTyper/
 └─ .editorconfig
 ```
 
-## 上传到 GitHub
-
-如果这是你第一次发布仓库，看 **[UPLOAD_GUIDE.md](UPLOAD_GUIDE.md)**。里面手把手写了：
-
-- 网页上传（不安装任何软件）
-- GitHub Desktop 和 Git 命令行的替代方式
-- 创建第一个 Release、填写仓库简介和 Topics
-- 以后更新项目的流程
-
 ## 参与贡献
 
 欢迎 Issue 和 PR。请先看 [CONTRIBUTING.md](CONTRIBUTING.md)。
