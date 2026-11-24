@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-labelledby="title desc">
+  <title id="title">LazyTyper / 摸鱼打字机</title>
+  <desc id="desc">把剪贴板内容逐字符送进任意 Windows 窗口的本地小工具。</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d09"/>
+      <stop offset="0.56" stop-color="#0b0d09"/>
+      <stop offset="1" stop-color="#10150c"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d7ff57" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#d7ff57" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffc46b" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffc46b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#181c13"/>
+      <stop offset="1" stop-color="#0d100b"/>
+    </linearGradient>
+    <linearGradient id="limeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d7ff57" stop-opacity="0.05"/>
+      <stop offset="0.5" stop-color="#d7ff57" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#d7ff57" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <ellipse cx="1080" cy="20" rx="420" ry="340" fill="url(#glowA)"/>
+  <ellipse cx="330" cy="380" rx="370" ry="240" fill="url(#glowB)"/>
+  <path d="M 700 0 L 700 360" stroke="#ffffff" stroke-opacity="0.04"/>
+
+  <!-- Brand -->
+  <g transform="translate(64,52)">
+    <rect width="58" height="58" rx="14" fill="#d7ff57"/>
+    <text x="29" y="39" text-anchor="middle" font-family="Consolas, 'Cascadia Code', monospace" font-size="24" font-weight="700" fill="#0a0c08">{ }</text>
+    <text x="78" y="24" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="22" font-weight="700" fill="#eef1e7">摸鱼打字机</text>
+    <text x="79" y="47" font-family="Consolas, monospace" font-size="11" letter-spacing="3.8" fill="#8d977f">LAZY TYPER</text>
+  </g>
+
+  <!-- Headline -->
+  <text x="64" y="188" font-family="'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif" font-size="52" font-weight="700" letter-spacing="-2" fill="#f2f5eb">把剪贴板，</text>
+  <text x="64" y="251" font-family="'Microsoft YaHei UI','PingFang SC','Noto Sans SC',sans-serif" font-size="52" font-weight="700" letter-spacing="-2" fill="#d7ff57">逐字敲进任意窗口。</text>
+  <text x="66" y="292" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="15" fill="#9aa38c">你只管乱按，字符按顺序出现。本地运行 · 不联网 · 不上传剪贴板。</text>
+
+  <!-- Chips -->
+  <g transform="translate(64,315)" font-family="Consolas, 'Cascadia Code', monospace" font-size="11">
+    <rect width="93" height="25" rx="5" fill="#141810" stroke="#343b2c"/>
+    <text x="12" y="17" fill="#d7ff57">F8</text><text x="39" y="17" fill="#8e977f">乱打</text>
+    <rect x="101" width="93" height="25" rx="5" fill="#141810" stroke="#343b2c"/>
+    <text x="113" y="17" fill="#ffc46b">F9</text><text x="140" y="17" fill="#8e977f">自动</text>
+    <rect x="202" width="146" height="25" rx="5" fill="#141810" stroke="#343b2c"/>
+    <text x="214" y="17" fill="#b9c7a8">Ctrl+Alt+H</text><text x="291" y="17" fill="#8e977f">藏起</text>
+    <rect x="356" width="109" height="25" rx="5" fill="#141810" stroke="#343b2c"/>
+    <text x="368" y="17" fill="#8e977f">Windows</text>
+  </g>
+
+  <!-- HUD mock -->
+  <g transform="translate(772,78)">
+    <rect x="0" y="0" width="446" height="204" rx="18" fill="#0d100b" stroke="#343d2b"/>
+    <path d="M 0 18 A 18 18 0 0 1 18 0 L 428 0 A 18 18 0 0 1 446 18 L 446 26 L 0 26 Z" fill="#141810"/>
+    <rect x="24" y="28" width="398" height="1" fill="url(#limeLine)"/>
+
+    <circle cx="38" cy="52" r="4.5" fill="#d7ff57"/>
+    <text x="54" y="58" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="17" font-weight="700" fill="#eef1e7">摸鱼打字机</text>
+    <text x="319" y="57" font-family="Consolas, monospace" font-size="8" letter-spacing="1.8" fill="#697260">LAZY TYPER</text>
+    <text x="414" y="55" font-family="Consolas, monospace" font-size="12" fill="#697260">—</text>
+
+    <text x="28" y="92" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="11.5" fill="#9aa38c">乱打模式 ON · 随便按，每次一个字。</text>
+    <rect x="342" y="78" width="76" height="21" rx="10.5" fill="#18200f" stroke="#4e6331"/>
+    <text x="352" y="92" font-family="Consolas, monospace" font-size="8" fill="#c7e17d">ON · 逐键</text>
+
+    <rect x="28" y="119" width="390" height="4" rx="2" fill="#252d1e"/>
+    <rect x="28" y="119" width="179" height="4" rx="2" fill="#d7ff57"/>
+    <text x="28" y="142" font-family="Consolas, monospace" font-size="8.5" fill="#697260">18 / 42 字符</text>
+    <text x="330" y="141" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="9" fill="#697260">下一个</text>
+    <rect x="381" y="125" width="37" height="25" rx="5" fill="#19200f" stroke="#687a45"/>
+    <text x="393" y="143" font-family="Consolas, monospace" font-size="13" font-weight="700" fill="#d7ff57">k</text>
+
+    <line x1="28" y1="161" x2="418" y2="161" stroke="#252d1e"/>
+    <text x="28" y="183" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="9" fill="#697260">F8 乱打　·　F9 自动　·　Esc 停止</text>
+    <text x="313" y="183" font-family="Consolas, monospace" font-size="8" fill="#697260">Ctrl+Alt+H 藏起</text>
+    <rect x="24" y="202" width="390" height="2" fill="#d7ff57" fill-opacity="0.55"/>
+  </g>
+
+  <!-- Fine print -->
+  <text x="1216" y="338" text-anchor="end" font-family="Consolas, monospace" font-size="8" letter-spacing="1.4" fill="#495144">LOCAL ONLY · OPEN SOURCE · 2026</text>
+</svg>

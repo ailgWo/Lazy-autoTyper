@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 390" width="900" height="390" role="img" aria-labelledby="title desc">
+  <title id="title">LazyTyper HUD 界面示意</title>
+  <desc id="desc">摸鱼打字机的 HUD 界面示意图：显示模式、进度、下一个字符和快捷键。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10140d"/>
+      <stop offset="1" stop-color="#080a07"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d7ff57" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#d7ff57" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#181c13"/>
+      <stop offset="1" stop-color="#0b0e09"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="390" rx="22" fill="url(#bg)"/>
+  <rect width="900" height="390" rx="22" fill="url(#grid)"/>
+  <ellipse cx="710" cy="70" rx="310" ry="210" fill="url(#glow)"/>
+
+  <text x="52" y="48" font-family="Consolas, 'Cascadia Code', monospace" font-size="10" letter-spacing="2.4" fill="#77816c">HUD PREVIEW / 界面示意</text>
+  <text x="848" y="48" text-anchor="end" font-family="Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#4c5547">WINFORMS · 420 × 158</text>
+
+  <g transform="translate(50,74)">
+    <rect width="800" height="284" rx="20" fill="url(#card)" stroke="#38422d"/>
+    <circle cx="34" cy="38" r="5" fill="#d7ff57"/>
+    <text x="52" y="47" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="21" font-weight="700" fill="#eef1e7">摸鱼打字机</text>
+    <text x="616" y="45" font-family="Consolas, monospace" font-size="9" letter-spacing="2.2" fill="#697260">LAZY TYPER</text>
+    <text x="752" y="45" font-family="Consolas, monospace" font-size="14" fill="#697260">—</text>
+
+    <text x="34" y="88" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="14" fill="#9aa38c">乱打模式 ON · 随便按，每次一个字。</text>
+    <rect x="620" y="70" width="110" height="28" rx="14" fill="#18200f" stroke="#4e6331"/>
+    <text x="636" y="88" font-family="Consolas, monospace" font-size="10" fill="#c7e17d">ON · 逐键</text>
+
+    <rect x="34" y="132" width="732" height="5" rx="2.5" fill="#252d1e"/>
+    <rect x="34" y="132" width="314" height="5" rx="2.5" fill="#d7ff57"/>
+    <text x="34" y="159" font-family="Consolas, monospace" font-size="10" fill="#697260">18 / 42 字符</text>
+    <text x="640" y="158" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="11" fill="#697260">下一个</text>
+    <rect x="710" y="138" width="52" height="34" rx="6" fill="#19200f" stroke="#687a45"/>
+    <text x="726" y="161" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#d7ff57">k</text>
+
+    <line x1="34" y1="195" x2="766" y2="195" stroke="#252d1e"/>
+    <text x="34" y="225" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="12" fill="#697260">F8 乱打　·　F9 自动　·　Esc 停止</text>
+    <text x="632" y="225" font-family="Consolas, monospace" font-size="10" fill="#697260">Ctrl+Alt+H 藏起</text>
+    <rect x="28" y="282" width="744" height="2" fill="#d7ff57" fill-opacity="0.55"/>
+  </g>
+
+  <text x="52" y="384" font-family="'Microsoft YaHei UI','PingFang SC',sans-serif" font-size="10" fill="#50594b">HUD 始终不使用键盘焦点；关闭只收进托盘，后台仍然工作。</text>
+</svg>
